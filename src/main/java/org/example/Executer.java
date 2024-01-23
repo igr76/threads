@@ -1,7 +1,7 @@
 package org.example;
 
 import java.util.concurrent.*;
-
+/** Демонстрация работы ThreadPoolExecutor*/
 public class Executer {
     public static void test1() throws ExecutionException, InterruptedException, TimeoutException {
 
