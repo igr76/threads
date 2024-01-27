@@ -1,5 +1,5 @@
 package org.example;
-
+/** Реализация многопоточной программы "Пинг понг"*/
 public class PingPong {
     private  String last="PONG";
      synchronized void action(String message) throws InterruptedException {
