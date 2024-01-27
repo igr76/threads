@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
+/** Deadlock*/
 public class DeadlockComplex {
     public static void main(String[] args) {
         ArrayList<Resource> resources = new ArrayList<>();
